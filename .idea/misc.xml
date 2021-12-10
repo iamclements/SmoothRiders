@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Daniel/dev/AndroidProjects/SmoothRiders/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Daniel/dev/AndroidProjects/SmoothRiders/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/Daniel/dev/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_create_ride_request.xml" value="0.264" />
+        <entry key="..\:/Users/Daniel/dev/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_all_rides.xml" value="0.264" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_create_ride_request.xml" value="0.4" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/activity_register_user.xml" value="0.1" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/create_account.xml" value="0.4" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/rides_layout.xml" value="0.4282238442822384" />
+        <entry key="..\:/Users/daniel/AndroidProjects/csc315-fall21-term-project-nelson-clemments-final-project/app/src/main/res/layout/toolbar.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/activity_create_ride_request.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_edit_ride_request.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_user_accepted_rides.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_userrides.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/create_account.xml" value="0.24564102564102563" />
+        <entry key="app/src/main/res/layout/ride_information.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

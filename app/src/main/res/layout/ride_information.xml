@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.clementsnelson.smoothriders.RideInformation">
+
+    <include
+        android:id="@+id/myToolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:id="@+id/DriverLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/driveTag"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/banner"
+        app:layout_constraintLeft_toLeftOf="@id/banner"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/DriverName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/DriverLabel"
+        app:layout_constraintLeft_toLeftOf="@id/DriverLabel"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pickupLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pickupLocationTag"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/DriverLabel"
+        app:layout_constraintLeft_toLeftOf="@id/DriverLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pickupAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pickupLabel"
+        app:layout_constraintLeft_toLeftOf="@id/pickupLabel"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/destinationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desinationTag"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pickupLabel"
+        app:layout_constraintLeft_toLeftOf="@id/pickupLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/rideDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/destinationLabel"
+        app:layout_constraintLeft_toLeftOf="@id/destinationLabel"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/rideDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descrTag"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/destinationLabel"
+        app:layout_constraintLeft_toLeftOf="@id/destinationLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/rideDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rideDescriptionLabel"
+        app:layout_constraintLeft_toLeftOf="@id/rideDescriptionLabel"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/timeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timeTag"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/rideDescriptionLabel"
+        app:layout_constraintLeft_toLeftOf="@id/rideDescriptionLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        app:layout_constraintTop_toBottomOf="@id/timeLabel"
+        app:layout_constraintLeft_toLeftOf="@id/timeLabel"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tipLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipTag"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/timeLabel"
+        app:layout_constraintLeft_toLeftOf="@id/timeLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tip"
+        app:layout_constraintTop_toBottomOf="@id/tipLabel"
+        app:layout_constraintLeft_toLeftOf="@id/tipLabel"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/acceptRide"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@color/whiteText"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tipLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tipLabel" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/editRide"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@color/whiteText"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tipLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/acceptButton" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/delRide"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/whiteText"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tipLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editButton" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

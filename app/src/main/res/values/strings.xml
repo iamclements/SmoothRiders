@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Smooth Riders</string>
+    <string name="hello">Welcome %1$s!</string>
+    <string name="slogan">"Getting you there smoothly since 2021"</string>
+    <string name="ShortDesc">Short description</string>
+    <string name="pickuptime">Time for pickup</string>
+    <string name="pickupLoc">Pickup Location</string>
+    <string name="pickupdest">Destination Location</string>
+    <string name="rideTip">Ride Tip</string>
+    <string name="createRequest">Create Ride Request</string>
+    <string name="shortDesc">Short Description</string>
+    <string name="editRideReq">EDIT RIDE REQUEST</string>
+    <string name="emailAdd">Email Address</string>
+    <string name="resetPass">Reset Password</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgotPass">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="createRide">CREATE RIDE</string>
+    <string name="postedRides">POSTED RIDES</string>
+    <string name="acceptedRides">ACCEPTED RIDES</string>
+    <string name="enterTip">Enter minimum tip or leave blank to search all rides.</string>
+    <string name="fullName">Full Name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="regUser">Register User</string>
+    <string name="refRides">REFRESH YOUR RIDES</string>
+    <string name="delRide">DELETE RIDE</string>
+    <string name="driveTag">Driver: </string>
+    <string name="pickupLocationTag">Pickup Location: </string>
+    <string name="desinationTag">Destination: </string>
+    <string name="descrTag">Description: </string>
+    <string name="timeTag">Time: </string>
+    <string name="tipTag">Tip: </string>
+    <string name="acceptRide">ACCEPT RIDE</string>
+    <string name="editRide">EDIT RIDE</string>
+    <string name="logout">LOGOUT</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
