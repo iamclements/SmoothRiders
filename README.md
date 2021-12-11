@@ -1,28 +1,32 @@
-# SmoothRiders
+<p align="center">
 
-## Login
-![image info](./screenshots/login.png)
+  # SmoothRiders
 
-## Register User
-![image info](./screenshots/create-account.png)
+  ## Login
+  ![image info](./screenshots/login.png)
 
-## Forgot User Passowrd
-![image info](./screenshots/reset-password.png)
+  ## Register User
+  ![image info](./screenshots/create-account.png)
 
-## Main Activity
-![image info](./screenshots/main.png)
+  ## Forgot User Passowrd
+  ![image info](./screenshots/reset-password.png)
 
-## Create a Ride Request
-![image info](./screenshots/create-ride-request.png)
+  ## Main Activity
+  ![image info](./screenshots/main.png)
 
-## View Ride Info
-![image info](./screenshots/ride-info.png)
+  ## Create a Ride Request
+  ![image info](./screenshots/create-ride-request.png)
 
-## View Rides that you have Accepted
-![image info](./screenshots/accepted-rides.png)
+  ## View Ride Info
+  ![image info](./screenshots/ride-info.png)
 
-## View Rides that you have Posted
-![image info](./screenshots/posted-rides.png)
+  ## View Rides that you have Accepted
+  ![image info](./screenshots/accepted-rides.png)
 
-## Filter Rides by Minimum Price
-![image info](./screenshots/search-ride-by-price.png)
+  ## View Rides that you have Posted
+  ![image info](./screenshots/posted-rides.png)
+
+  ## Filter Rides by Minimum Price
+  ![image info](./screenshots/search-ride-by-price.png)
+
+</p>
